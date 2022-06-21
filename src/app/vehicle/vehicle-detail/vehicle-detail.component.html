@@ -4,11 +4,15 @@
   <div class="d-flex justify-content-center mt-3">
     <div class="card text-center border-dark mb-3 w-75" >
       <div id="header" class="card-header bg-transparent border-dark">
-        <h6>{{vehicle.color}} - {{vehicle.color}}</h6>
+        <h3>{{vehicle.brand}} - {{vehicle.model}}</h3>
       </div>
       <div class="card-body text-dark">
-        <h5 class="card-title">{{vehicle.color}}</h5>
-        <h5 class="card-text">{{vehicle.color}}</h5>
+        <h5 class="card-title">Combustible: {{vehicle.fuelType}}</h5>
+        <h5 class="card-text">Color: {{vehicle.color}}</h5>
+        <h5 class="card-text">Potencia (cv): {{vehicle.power}}</h5>
+        <h5 class="card-text">Par Motor (kgm): {{vehicle.torque}}</h5>
+        <h5 class="card-text">Velocidad máxima (km/h): {{vehicle.maximumSpeed}}</h5>
+        <h5 class="card-text">Cantida de puertas: {{vehicle.numberOfDoors}}</h5>
       </div>
       <div class="card-footer bg-transparent border-dark">
         <span><button class="btn btn-lg btn-primary" (click)="onReturn()">Volver</button></span>
