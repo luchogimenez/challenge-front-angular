@@ -1,0 +1,15 @@
+<div class="col-md-6 offset-md-3">
+    <h2 class="text-center mt-3">{{tittle}}</h2>
+    <form (ngSubmit)="onSubmit(vehicle)">
+        <div class="form-group">
+            <label class="form-label">Nombre del Cliente</label>
+            <input type="text" 
+                class="form-control"
+                id="color"
+                [(ngModel)]="vehicle.color"
+                name="color">
+        </div>
+        <button class="btn btn-primary">Guardar Cambios</button>
+        <button type="button" class="btn btn-danger mx-3" (click)="onCancel()">Cancelar</button>
+    </form>
+</div>
