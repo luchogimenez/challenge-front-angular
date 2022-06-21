@@ -10,6 +10,7 @@ import { VehicleDetailComponent } from './vehicle/vehicle-detail/vehicle-detail.
 import { VehicleCreateComponent } from './vehicle/vehicle-create/vehicle-create.component';
 import { VehicleUpdateComponent } from './vehicle/vehicle-update/vehicle-update.component';
 import { FormsModule } from '@angular/forms';
+import { NabvarComponent } from './nabvar/nabvar.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { FormsModule } from '@angular/forms';
     VehicleItemComponent,
     VehicleDetailComponent,
     VehicleCreateComponent,
-    VehicleUpdateComponent
+    VehicleUpdateComponent,
+    NabvarComponent
   ],
   imports: [
     BrowserModule,

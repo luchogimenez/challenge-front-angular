@@ -3,7 +3,7 @@ export class Vehicle {
     id:number;
     brand:string;
     model:string;
-    fueltype:string;
+    fuelType:string;
     color:string;
     power:number;
     torque:number;
